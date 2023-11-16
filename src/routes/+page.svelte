@@ -124,7 +124,7 @@
 
 	<!-- Display the countdown timer -->
 	<div class="basis-1/2">
-		<h2 class="text-maxxl font-black text-right">
+		<h2 class="text-maxxl font-black text-right bg-gradient-to-r pb-1 from-sky-200 via-sky-200 to-sky-400 text-transparent bg-clip-text">
 			<div>{hours}</div>
 			<div>{minutes < 10 ? `0${minutes}` : minutes}</div>
 			<div>{seconds < 10 ? `0${seconds}` : seconds}</div>
