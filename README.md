@@ -1,38 +1,67 @@
-# create-svelte
+# ⏳ Countdown Timer App
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a simple ⏱️ countdown timer web application built using SvelteKit.
 
-## Creating a project
+## Description
 
-If you're seeing this, you've probably already done this step. Congrats!
+The Countdown Timer App allows users to set a countdown timer by specifying ⏳ hours, minutes, and seconds. It starts the countdown and displays the remaining time in real-time.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+The timer persists its state even when the page is refreshed or closed, ensuring that users can resume the timer from where they left off.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Features
 
-## Developing
+- Set a countdown timer with ⏰ hours, minutes, and seconds inputs
+- Start, pause, and reset the timer
+- Timer state persistence using browser localStorage
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Technologies Used
 
-```bash
-npm run dev
+- SvelteKit (Frontend Framework)
+- JavaScript (TypeScript)
+- HTML/CSS
+- localStorage for data persistence
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Getting Started
 
-## Building
+### Prerequisites
 
-To create a production version of your app:
+- Node.js installed
+- npm or yarn package manager
 
-```bash
-npm run build
-```
+### Installation
 
-You can preview the production build with `npm run preview`.
+1. Clone the repository:
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+   ```bash
+   git clone https://github.com/yourusername/countdown-timer-app.git
+   ```
+2.  Navigate to the project directory:
+
+  ```bash
+   cd countdown-timer-app
+   ```
+
+3.  Install dependencies:
+
+  ```bash
+   npm install
+   ```
+
+4.  Start the development server:
+
+  ```bash
+   npm run dev
+   ```
+5. Open your browser and visit http://localhost:3000 to see the app running.
+
+## Usage
+* Set the desired countdown time using the input fields for ⏳ hours, minutes, and seconds.
+* Click the "Start" button to begin the countdown.
+* Use the "Pause" button to pause the timer or the "Reset" button to reset it.
+## License
+This project is licensed under the MIT License.
+
+## Acknowledgements
+This project was created as part of the November challenge by Codesphere.
+
+
