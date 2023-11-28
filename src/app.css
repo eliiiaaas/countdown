@@ -4,8 +4,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Fira+Sans:wght@100&family=Urbanist:wght@400;500;600;700;800;900&display=swap');
 
 /* Global styles */
+
+html, body {
+  overflow-x: hidden;
+}
+
 body {
 	font-family: 'Albert Sans', sans-serif;
+	position: relative;
+
 }
 
 /* Resetting spin buttons for number input */
@@ -23,7 +30,7 @@ input[type='number'] {
 /* Styling for a specific font size */
 .text-maxxl {
 	font-family: 'Big Shoulders Display';
-	font-size: 22.5rem;
+	font-size: 34vh;
 	line-height: 0.83;
 }
 
