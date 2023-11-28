@@ -33,7 +33,7 @@ The timer persists its state even when the page is refreshed or closed, ensuring
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/countdown-timer-app.git
+   git clone https://github.com/eliiiaaas/countdown.git
    ```
 2.  Navigate to the project directory:
 
