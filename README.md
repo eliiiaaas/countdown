@@ -31,14 +31,13 @@ The timer persists its state even when the page is refreshed or closed, ensuring
 ### Installation
 
 1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/eliiiaaas/countdown.git
+```bash
+git clone https://github.com/eliiiaaas/countdown.git
    ```
 2.  Navigate to the project directory:
 
   ```bash
-   cd countdown-timer-app
+   cd countdown
    ```
 
 3.  Install dependencies:
@@ -58,6 +57,7 @@ The timer persists its state even when the page is refreshed or closed, ensuring
 * Set the desired countdown time using the input fields for ⏳ hours, minutes, and seconds.
 * Click the "Start" button to begin the countdown.
 * Use the "Pause" button to pause the timer or the "Reset" button to reset it.
+* The theme is based on your device settings (darkmode & lightmode)
 ## License
 This project is licensed under the MIT License.
 
